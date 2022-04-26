@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.Orange {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.Half-Width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.Half-Width img {
+    width: 80%;
+}
+
+.Linkedin {
+    text-decoration: none;
+    background-image: linear-gradient(Orange, Tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
