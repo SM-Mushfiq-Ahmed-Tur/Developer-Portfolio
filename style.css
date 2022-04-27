@@ -1,17 +1,19 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .Orange {
     color: orange;
 }
 
-section {
+.flexible-Container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .Half-Width {
@@ -23,10 +25,27 @@ section {
     width: 80%;
 }
 
-.Linkedin {
+.Linked-Button {
     text-decoration: none;
     background-image: linear-gradient(Orange, Tomato);
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.Top-Banner {
+    padding-top: 70px;
+    padding-left: 50px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.DREAM-BIG {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p {
+    font-size: 20px;
 }
